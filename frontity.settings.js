@@ -37,7 +37,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://wp.frontity-cf7.aamodtgroup.com",
+          "url": "https://wp-frontity-cf7.aamodtgroup.com",
           "homepage": "home"
         }
       }
