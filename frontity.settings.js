@@ -2,9 +2,9 @@ const settings = {
   "name": "frontity-cf7-demo",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://frontity-cf7.aamodtgroup.com",
+      "title": "Frontity CF7 Demo",
+      "description": "This is a Frontity CF7 demo"
     }
   },
   "packages": [
@@ -14,24 +14,16 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "GitHub",
+              "https://github.com/aamodtgroup/frontity-contact-form-7"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Issues",
+              "https://github.com/aamodtgroup/frontity-contact-form-7/issues"
             ],
             [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Aamodt Group",
+              "https://aamodtgroup.com"
             ]
           ],
           "featured": {
@@ -45,12 +37,15 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://wp.frontity-cf7.aamodtgroup.com",
+          "homepage": "home"
         }
       }
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
+    "@frontity/html2react",
+    "@aamodtgroup/frontity-contact-form-7",
+    "@frontity/yoast"
   ]
 };
 
