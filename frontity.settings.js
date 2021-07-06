@@ -42,9 +42,9 @@ const settings = {
         }
       }
     },
+    "@aamodtgroup/frontity-contact-form-7",
     "@frontity/tiny-router",
     "@frontity/html2react",
-    "@aamodtgroup/frontity-contact-form-7",
     "@frontity/yoast"
   ]
 };
