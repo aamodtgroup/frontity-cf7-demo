@@ -17,7 +17,7 @@
   },
   "prettier": {},
   "dependencies": {
-    "@aamodtgroup/frontity-contact-form-7": "^0.2.13",
+    "@aamodtgroup/frontity-contact-form-7": "^0.2.14",
     "@frontity/core": "^1.14.3",
     "@frontity/html2react": "^1.7.0",
     "@frontity/mars-theme": "./packages/mars-theme",
